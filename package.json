@@ -2,9 +2,9 @@
   "author": "Max Tyler",
   "name": "ezservices",
   "description": "This is a cool program to start or stop Mac LaunchAgents, replacement of launchctl",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "repository": {
-    "url": ""
+    "url": "https://github.com/iam4x/ezservices"
   },
   "main": "./lib/ezservices",
   "keywords": [
