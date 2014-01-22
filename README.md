@@ -13,6 +13,9 @@ will become
 
 ```ezservices start mongodb```
 
+you can stack services to start or stop severals at same time
+
+```ezservices start mongodb php mysql```
 
 Example:
   + Start php `ezservices start php`
