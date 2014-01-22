@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+
+"use strict";
+var path       = require('path');
+var fs         = require('fs');
+var lib        = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
+var ezservices = require(lib+'/ezservices.js');
+var myArgs     = process.argv.slice(2);
+
+switch (myArgs[0]) {
+  case 'ls':
+    ezservices.listServices(myArgs[1]);
+    break;
+  case 'start':
+    ezservices.exec(myArgs[0], myArgs.slice(1));
+    break;
+  case 'stop':
+    ezservices.exec(myArgs[0], myArgs.slice(1));
+    break;
+  default:
+    console.log('\nIncorrect command, usage: ' + '\n\n ezservices [start/stop] [service]');
+    console.log(' You can use \'all\' as service to start or stop all services');
+    console.log(' You can list the services with \'ezservices ls\'');
+    break;
+}
