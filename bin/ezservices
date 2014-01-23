@@ -17,6 +17,9 @@ switch (myArgs[0]) {
   case 'show':
     ezservices.showService(myArgs.slice(1));
     break;
+  case 'status':
+    ezservices.execOperation(myArgs[0], myArgs.slice(1));
+    break;
   case 'start':
     ezservices.execOperation(myArgs[0], myArgs.slice(1));
     break;

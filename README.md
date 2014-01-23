@@ -62,12 +62,13 @@ Usage
 * `ezservices restart [services]` restart the given services
 * `ezservices ls | list` list all the availables services
 * `ezservices show [services | all]` give the path of the given LaunchAgents
+* `ezservices status [services]` give the status of the given LaunchAgents, **all keyword is not working yet**
 
 
 TODO
 -------------
 
-Add `status` command and `install` command.
+Add `install` command, to install new LaunchAgents. Usefull when you have installed new package with Homebrew for example.
 
 
 About
