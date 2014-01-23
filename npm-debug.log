@@ -1,0 +1,131 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/iam4x/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. /Users/iam4x/.npm/1f1177db-tar.lock
+15 silly lockFile df0578cf-35950-0-6804093674290925-tmp-tgz tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/tmp.tgz
+16 verbose lock tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/tmp.tgz /Users/iam4x/.npm/df0578cf-35950-0-6804093674290925-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile df0578cf-35950-0-6804093674290925-tmp-tgz tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/tmp.tgz
+20 silly lockFile df0578cf-35950-0-6804093674290925-tmp-tgz tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/tmp.tgz
+21 verbose tar unpack /var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/tmp.tgz
+22 silly lockFile 52207ade-35950-0-6804093674290925-package tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/package
+23 verbose lock tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/package /Users/iam4x/.npm/52207ade-35950-0-6804093674290925-package.lock
+24 silly lockFile df0578cf-35950-0-6804093674290925-tmp-tgz tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/tmp.tgz
+25 verbose lock tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/tmp.tgz /Users/iam4x/.npm/df0578cf-35950-0-6804093674290925-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm extractEntry .npmignore
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry LICENSE
+31 silly gunzTarPerm extractEntry bin/ezservices
+32 silly gunzTarPerm extractEntry lib/ezservices.js
+33 silly lockFile 52207ade-35950-0-6804093674290925-package tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/package
+34 silly lockFile 52207ade-35950-0-6804093674290925-package tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/package
+35 silly lockFile df0578cf-35950-0-6804093674290925-tmp-tgz tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/tmp.tgz
+36 silly lockFile df0578cf-35950-0-6804093674290925-tmp-tgz tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/tmp.tgz
+37 verbose tar pack [ '/Users/iam4x/.npm/EZservices/0.2.3/package.tgz',
+37 verbose tar pack   '/var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/package' ]
+38 verbose tarball /Users/iam4x/.npm/EZservices/0.2.3/package.tgz
+39 verbose folder /var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/package
+40 silly lockFile 52207ade-35950-0-6804093674290925-package tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/package
+41 verbose lock tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/package /Users/iam4x/.npm/52207ade-35950-0-6804093674290925-package.lock
+42 silly lockFile 1409e853-npm-EZservices-0-2-3-package-tgz tar:///Users/iam4x/.npm/EZservices/0.2.3/package.tgz
+43 verbose lock tar:///Users/iam4x/.npm/EZservices/0.2.3/package.tgz /Users/iam4x/.npm/1409e853-npm-EZservices-0-2-3-package-tgz.lock
+44 silly lockFile 52207ade-35950-0-6804093674290925-package tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/package
+45 silly lockFile 52207ade-35950-0-6804093674290925-package tar:///var/folders/19/pswzdmks31lchw97hrkm869r0000gn/T/npm-90822-sCakGnUe/1390489135950-0.6804093674290925/package
+46 silly lockFile 1409e853-npm-EZservices-0-2-3-package-tgz tar:///Users/iam4x/.npm/EZservices/0.2.3/package.tgz
+47 silly lockFile 1409e853-npm-EZservices-0-2-3-package-tgz tar:///Users/iam4x/.npm/EZservices/0.2.3/package.tgz
+48 silly lockFile 5a87a56d-m4x-npm-EZservices-0-2-3-package /Users/iam4x/.npm/EZservices/0.2.3/package
+49 verbose lock /Users/iam4x/.npm/EZservices/0.2.3/package /Users/iam4x/.npm/5a87a56d-m4x-npm-EZservices-0-2-3-package.lock
+50 silly lockFile 5a87a56d-m4x-npm-EZservices-0-2-3-package /Users/iam4x/.npm/EZservices/0.2.3/package
+51 silly lockFile 5a87a56d-m4x-npm-EZservices-0-2-3-package /Users/iam4x/.npm/EZservices/0.2.3/package
+52 verbose tar unpack /Users/iam4x/.npm/EZservices/0.2.3/package.tgz
+53 silly lockFile 156301aa-m4x-npm-EZservices-0-2-3-package tar:///Users/iam4x/.npm/EZservices/0.2.3/package
+54 verbose lock tar:///Users/iam4x/.npm/EZservices/0.2.3/package /Users/iam4x/.npm/156301aa-m4x-npm-EZservices-0-2-3-package.lock
+55 silly lockFile 1409e853-npm-EZservices-0-2-3-package-tgz tar:///Users/iam4x/.npm/EZservices/0.2.3/package.tgz
+56 verbose lock tar:///Users/iam4x/.npm/EZservices/0.2.3/package.tgz /Users/iam4x/.npm/1409e853-npm-EZservices-0-2-3-package-tgz.lock
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm extractEntry .npmignore
+60 silly gunzTarPerm extractEntry README.md
+61 silly gunzTarPerm extractEntry LICENSE
+62 silly gunzTarPerm extractEntry bin/ezservices
+63 silly gunzTarPerm extractEntry lib/ezservices.js
+64 silly lockFile 156301aa-m4x-npm-EZservices-0-2-3-package tar:///Users/iam4x/.npm/EZservices/0.2.3/package
+65 silly lockFile 156301aa-m4x-npm-EZservices-0-2-3-package tar:///Users/iam4x/.npm/EZservices/0.2.3/package
+66 silly lockFile 1409e853-npm-EZservices-0-2-3-package-tgz tar:///Users/iam4x/.npm/EZservices/0.2.3/package.tgz
+67 silly lockFile 1409e853-npm-EZservices-0-2-3-package-tgz tar:///Users/iam4x/.npm/EZservices/0.2.3/package.tgz
+68 verbose chmod /Users/iam4x/.npm/EZservices/0.2.3/package.tgz 644
+69 verbose chown /Users/iam4x/.npm/EZservices/0.2.3/package.tgz [ 501, 20 ]
+70 silly lockFile 3a52ce78- .
+71 silly lockFile 3a52ce78- .
+72 silly publish { author: { name: 'Max Tyler' },
+72 silly publish   name: 'EZservices',
+72 silly publish   description: 'Cool program to start or stop Mac LaunchAgents (wrapper for launchctl).',
+72 silly publish   version: '0.2.3',
+72 silly publish   repository: { url: 'https://github.com/iam4x/ezservices' },
+72 silly publish   main: './lib/ezservices',
+72 silly publish   keywords: [ 'services', 'mac', 'file', 'launchctl', 'tool', 'wrapper' ],
+72 silly publish   bin: { ezservices: './bin/ezservices' },
+72 silly publish   dependencies: { 'cli-color': '*', 'tilde-expansion': '*' },
+72 silly publish   engines: { node: '*' },
+72 silly publish   readme: 'EZservices\n-------------\n\nA wrapper for launchctl, inspired by the gem [lunchy](https://github.com/mperham/lunchy).\n\nWhy **EZservices** ? Because lunchy can\'t star/stop/restart severals LaunchAgents at the same time,\nyou need to run severals commands to acheive this.\n\n(from lunchy description)\nDon\'t you hate OSX\'s launchctl? You have to give it exact filenames.\nThe syntax is annoying different from Linux\'s nice, simple init system and overly verbose.\nIt\'s just not a very developer-friendly tool.\n\nInstead of using this:\n\n``launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist``\n\nyou can do this:\n\n``ezservices start mongodb``\n\nand:\n\n```\n> ezservices ls\n\n~/Library/LaunchAgents/homebrew-php.josegonzalez.php55.plist\n~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist\n~/Library/LaunchAgents/homebrew.mxcl.memcached.plist\n~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist\n~/Library/LaunchAgents/homebrew.mxcl.mysql.plist\n~/Library/LaunchAgents/homebrew.mxcl.nginx-full.plist\n```\n\nBut the power of **EZservices** is to start or stop severals LaunchAgents at the same time :\n\n```\n> ezservices start mongodb mysql elasticsearch\n\nmongodb correctly started.\nmysql correctly started.\nelasticsearch correctly started.\n```\n\n\nInstallation\n-------------\n\nInstall `npm cli` that comes with [nodejs](http://nodejs.org/) if it\'s not already done.\n\nThen simply run `npm install ezservices -g` and you\'re done!\n\n\nUsage\n-------------\n\n**The availables commands are:**\n*(If all keyword is used, it will perform the operation on all availables services)*\n\n* `ezservices start [services | all]` starts the given services\n* `ezservices stop [services | all]` stops the given services\n* `ezservices restart [services]` restart the given services\n* `ezservices ls | list` list all the availables services\n* `ezservices show [services | all]` give the path of the given LaunchAgents\n* `ezservices status [services]` give the status of the given LaunchAgents, **all keyword is not working yet**\n* `ezservices install [file]` install the given file as a LaunchAgents\n* `ezservices remove [service]` remove the given service from LaunchAgents\n\n\nTODO\n-------------\n\n* Some refactoring.\n* More use of nodejs instead of bash command.\n* Add edit command.\n\n\nAbout\n-------------\n\nMaxime, [@iam4x](http://twitter.com/iam4x), [www.iam4x.fr](http://iam4x.fr)\n\n\nLicense\n-------------\n\nThe MIT License (MIT)\n\nCopyright (c) 2013 Maxime Janton, maxime.janton@supinfo.com\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+72 silly publish   readmeFilename: 'README.md',
+72 silly publish   bugs: { url: 'https://github.com/iam4x/ezservices/issues' },
+72 silly publish   _id: 'EZservices@0.2.3',
+72 silly publish   dist: { shasum: '25d3b89d11b7e562457b49a1a48f97f0646ebb03' },
+72 silly publish   _from: '.' }
+73 verbose url raw EZservices
+74 verbose url resolving [ 'https://registry.npmjs.org/', './EZservices' ]
+75 verbose url resolved https://registry.npmjs.org/EZservices
+76 info trying registry request attempt 1 at 15:58:56
+77 http PUT https://registry.npmjs.org/EZservices
+78 http 403 https://registry.npmjs.org/EZservices
+79 info trying registry request attempt 1 at 15:58:57
+80 http PUT https://registry.npmjs.org/EZservices
+81 http 403 https://registry.npmjs.org/EZservices
+82 error publish Failed PUT response 403
+83 error Error: forbidden New packages must have all-lowercase names: EZservices
+83 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:272:14)
+83 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:129:22)
+83 error     at Request.EventEmitter.emit (events.js:98:17)
+83 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:873:14)
+83 error     at Request.EventEmitter.emit (events.js:117:20)
+83 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:824:12)
+83 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+83 error     at _stream_readable.js:920:16
+83 error     at process._tickCallback (node.js:415:13)
+84 error If you need help, you may report this log at:
+84 error     <http://github.com/isaacs/npm/issues>
+84 error or email it to:
+84 error     <npm-@googlegroups.com>
+85 error System Darwin 13.0.0
+86 error command "node" "/usr/local/bin/npm" "publish"
+87 error cwd /Users/iam4x/ezservices/src
+88 error node -v v0.10.21
+89 error npm -v 1.3.11
+90 verbose exit [ 1, true ]
