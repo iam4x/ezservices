@@ -11,14 +11,20 @@ switch (myArgs[0]) {
   case 'ls':
     ezservices.listServices();
     break;
+  case 'list':
+    ezservices.listServices();
+    break;
   case 'show':
-    ezservices.listServices(myArgs[1]);
+    ezservices.showService(myArgs.slice(1));
     break;
   case 'start':
-    ezservices.exec(myArgs[0], myArgs.slice(1));
+    ezservices.execOperation(myArgs[0], myArgs.slice(1));
     break;
   case 'stop':
-    ezservices.exec(myArgs[0], myArgs.slice(1));
+    ezservices.execOperation(myArgs[0], myArgs.slice(1));
+    break;
+  case 'restart':
+    ezservices.execOperation(myArgs[0], myArgs.slice(1));
     break;
   default:
     console.log('\nIncorrect command, usage: ' + '\n\n ezservices [start/stop] [service]');
