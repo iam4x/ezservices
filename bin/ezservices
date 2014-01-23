@@ -29,6 +29,12 @@ switch (myArgs[0]) {
   case 'restart':
     ezservices.execOperation(myArgs[0], myArgs.slice(1));
     break;
+  case 'install':
+    ezservices.installService(myArgs[1]);
+    break;
+  case 'remove':
+    ezservices.removeService(myArgs[1]);
+    break;
   default:
     console.log('\nIncorrect command, usage: ' + '\n\n ezservices [start/stop] [service]');
     console.log(' You can use \'all\' as service to start or stop all services');

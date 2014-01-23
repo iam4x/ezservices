@@ -68,7 +68,9 @@ Usage
 TODO
 -------------
 
-Add `install` command, to install new LaunchAgents. Usefull when you have installed new package with Homebrew for example.
+* Some refactoring.
+* More use of nodejs instead of bash command.
+* Add edit command.
 
 
 About
