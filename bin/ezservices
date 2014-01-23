@@ -3,9 +3,11 @@
 "use strict";
 var path       = require('path');
 var fs         = require('fs');
+var clc        = require('cli-color');
 var lib        = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
 var ezservices = require(lib+'/ezservices.js');
 var myArgs     = process.argv.slice(2);
+var pck        = require('../package.json');
 
 switch (myArgs[0]) {
   case 'ls':
@@ -29,9 +31,27 @@ switch (myArgs[0]) {
   case 'restart':
     ezservices.execOperation(myArgs[0], myArgs.slice(1));
     break;
+  case 'install':
+    ezservices.installService(myArgs[1]);
+    break;
+  case 'remove':
+    ezservices.removeService(myArgs[1]);
+    break;
+  case 'help':
+    console.log(pck.name + ' ' + pck.version + ',\n' + pck.description);
+    console.log('\nSupported commands:');
+    console.log(' list                 Show the list availables LaunchAgents.');
+    console.log(' ls                   Alias for list.');
+    console.log(' start [pattern]      Start the matching LaunchAgents');
+    console.log(' stop [pattern]       Stop the matching LaunchAgents');
+    console.log(' restart [pattern     Restart the matching LaunchAgents');
+    console.log(' install [file]       Install the given plist as LaunchAgents');
+    console.log(' remove [pattern]     Remove the match LaunchAgents');
+    console.log(' show [pattern]       Show the path of the matching LaunchAgents');
+    console.log(' status [pattern]     Show the status of the matching LaunchAgents');
+    break;
   default:
-    console.log('\nIncorrect command, usage: ' + '\n\n ezservices [start/stop] [service]');
-    console.log(' You can use \'all\' as service to start or stop all services');
-    console.log(' You can list the services with \'ezservices ls\'');
+    console.log(clc.red('Unknow command: \''+ myArgs[0] + '\''));
+    console.log(clc.blue('Usage: ezservices [help|start|stop|restart|ls|list|status|install|show|remove] options'));
     break;
 }

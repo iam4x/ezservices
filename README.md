@@ -63,12 +63,16 @@ Usage
 * `ezservices ls | list` list all the availables services
 * `ezservices show [services | all]` give the path of the given LaunchAgents
 * `ezservices status [services]` give the status of the given LaunchAgents, **all keyword is not working yet**
+* `ezservices install [file]` install the given file as a LaunchAgents
+* `ezservices remove [service]` remove the given service from LaunchAgents
 
 
 TODO
 -------------
 
-Add `install` command, to install new LaunchAgents. Usefull when you have installed new package with Homebrew for example.
+* Some refactoring.
+* More use of nodejs instead of bash command.
+* Add edit command.
 
 
 About
