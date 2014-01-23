@@ -9,6 +9,9 @@ var myArgs     = process.argv.slice(2);
 
 switch (myArgs[0]) {
   case 'ls':
+    ezservices.listServices();
+    break;
+  case 'show':
     ezservices.listServices(myArgs[1]);
     break;
   case 'start':
