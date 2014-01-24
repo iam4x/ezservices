@@ -65,6 +65,7 @@ Usage
 * `ezservices status [services]` give the status of the given LaunchAgents, **all keyword is not working yet**
 * `ezservices install [file]` install the given file as a LaunchAgents
 * `ezservices remove [service]` remove the given service from LaunchAgents
+* `ezservices edit [service]` open the LaunchAgent plist for edit
 
 
 TODO
